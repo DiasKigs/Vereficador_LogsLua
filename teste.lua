@@ -31,7 +31,7 @@ function getDateTime()
     -- Verifica se o processo Discord.exe está em execução
     local processoDiscord = "Discord.exe"
     if isProcessRunning(processoDiscord) then
-       -- Escreve o processo cmd.exe no arquivo de log
+       -- Escreve o processo Discord.exe no arquivo de log
        arquivoLog:write("O processo " .. processoDiscord .. " está em execução.\n")
     end
  
